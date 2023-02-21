@@ -9,8 +9,8 @@
 ## _Topics that are going to learn in this journey_
 
 * **(Part - A) `Core Java`** <br>
-    * - [x]Installation
-    * - [ ]Operator
+    * [x] Installation
+    * [ ] Operator
     * Control
     * Array
     * Method
