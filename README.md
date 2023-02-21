@@ -11,61 +11,61 @@
 * **(Part - A) `Core Java`** <br>
     * - [x] Installation
     * - [ ] Operator
-    * Control
-    * Array
-    * Method
-    * OOP
-        * Class
-        * Inheritance
-        * Polymorphism
-        * Overloading
-        * Overwriting
-        * Abstract
-        * Interface
-        * Runtime Polymorphism
-    * Relational Mapping
-    * Collection Framework
-        * Functional Interface
-        * Steam
-        * Lamda
-    * GUI - Java Fx
-    * JDBC and DAO
-    * Exception
-    * Synchronized Task
-    * Thread (Asynchronised)
+    * - [ ] Control
+    * - [ ] Array
+    * - [ ] Method
+    * - [ ] OOP
+        * - [ ] Class
+        * - [ ] Inheritance
+        * - [ ] Polymorphism
+        * - [ ] Overloading
+        * - [ ] Overwriting
+        * - [ ] Abstract
+        * - [ ] Interface
+        * - [ ] Runtime Polymorphism
+    * - [ ] Relational Mapping
+    * - [ ] Collection Framework
+        * - [ ] Functional Interface
+        * - [ ] Steam
+        * - [ ] Lamda
+    * - [ ] GUI - Java Fx
+    * - [ ] JDBC and DAO
+    * - [ ] Exception
+    * - [ ] Synchronized Task
+    * - [ ] Thread (Asynchronised)
     * **(Project)**
 * **(Part - B) `Server Side`**
-    * Server - JSP - (Tomcat / Glashfish)
-    * MVC (DAO to MVC)
-        * HTML
-        * CSS
-        * Bootstrap
-        * JS
-    * Spring
-    * IOC
-    * DI
-    * Bin-lifecycle
-    * Configuration
-        * XML
-        * Notation
-        * Java
-        * Lookup
-    * AOP
-    * Spring SPELL
-        * Validation
-    * JDBC Template
-    * Hybernet
-    * JPA Data
-    * Spring Boot
-        * MVC
-        * Rest
-        * Spring Security
-        * JWT
+    * - [ ] Server - JSP - (Tomcat / Glashfish)
+    * - [ ] MVC (DAO to MVC)
+        * - [ ] HTML
+        * - [ ] CSS
+        * - [ ] Bootstrap
+        * - [ ] JS
+    * - [ ] Spring
+    * - [ ] IOC
+    * - [ ] DI
+    * - [ ] Bin-lifecycle
+    * - [ ] Configuration
+        * - [ ] XML
+        * - [ ] Notation
+        * - [ ] Java
+        * - [ ] Lookup
+    * - [ ] AOP
+    * - [ ] Spring SPELL
+        * V- [ ] alidation
+    * - [ ] JDBC Template
+    * - [ ] Hybernet
+    * - [ ] JPA Data
+    * - [ ] Spring Boot
+        * - [ ] MVC
+        * - [ ] Rest
+        * - [ ] Spring Security
+        * - [ ] JWT
 * **(Part - C) `Frontend`**
-    * JS
-        * Angular JS / React Js
-        * Jquery
-        * Angular
+    * - [ ] JS
+        * - [ ] Angular JS / React Js
+        * - [ ] Jquery
+        * - [ ] Angular
 	* **(Task List Angular)**
 ___
 # Author Profile
@@ -73,7 +73,3 @@ Francis Rudra D Cruze <br>
 [LinkedIn @rudradcruze]('https://www.linkedin.com/in/rudradcruze?') <br>
 [Twitter @rudradcruze]('https://twitter.com/rudradcruze')
 ---
-
-* - [x] Test 1
-* - [x] Test 2
-* - [ ] Test 3
