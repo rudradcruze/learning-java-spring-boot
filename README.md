@@ -70,6 +70,6 @@
 ___
 # Author Profile
 Francis Rudra D Cruze <br>
-[LinkedIn @rudradcruze]('https://www.linkedin.com/in/rudradcruze?') <br>
-[Twitter @rudradcruze]('https://twitter.com/rudradcruze')
+[LinkedIn @rudradcruze](https://www.linkedin.com/in/rudradcruze?) <br>
+[Twitter @rudradcruze](https://twitter.com/rudradcruze)
 ---
