@@ -1,8 +1,8 @@
 # Learning Java Spring Boot
 
 ## Classes & Resources
-* [Day 1: Java Installation & Softwares]('https://github.com/rudradcruze/learning-java-spring-boot/day-1-installation')
-* [Day 2: Java Structure & Class Basic]('https://github.com/rudradcruze/learning-java-spring-boot/day-2-basic-class')
+* [Day 1: Java Installation & Softwares](https://github.com/rudradcruze/learning-java-spring-boot/tree/main/day-1-installation)
+* [Day 2: Java Structure & Class Basic](https://github.com/rudradcruze/learning-java-spring-boot/tree/main/day-2-basic-class)
 
 ---
 
