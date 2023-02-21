@@ -16,13 +16,12 @@ public class Main {
 		account.showDetails();
 		
 		// Deposit and show
-		System.out.println("------ Deposit ------");
 		account.deposit(10000);
-		account.showDetails();
+//		account.showDetails();
 		
 		// Withdraw and show
-		System.out.println("------ Withdraw ------");
+		account.withdraw(2000);
 		account.withdraw(30000);
-		account.showDetails();
+//		account.showDetails();
 	}
 }

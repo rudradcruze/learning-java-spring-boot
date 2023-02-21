@@ -33,14 +33,27 @@ public class Account {
 	
 	public void deposit(double amount) {
 		accountBalance += amount;
+		
+		System.out.println("==== !!! ==== Deposit Successful ==== !!! ====");
+		System.out.println("Account No: " + getAccountNo());
+		System.out.println("Deposit amount: " + amount);
+		System.out.println("Your new balance is: " + getAccountBalance() + "\n");
 	}
 	
 	public void withdraw(double amount) {
 		
-		if(amount > getAccountBalance())
+		if(amount > getAccountBalance()) {
+			System.out.println("==== !!! ==== Withdraw Unsuccessful ==== !!! ====");
+			System.out.println("The amount " + amount + " you want to withdraw  is gratter then the actual balance.");
 			return;
+		}
 
 		accountBalance -= amount;
+		
+		System.out.println("==== !!! ==== Withdraw Successful ==== !!! ====");
+		System.out.println("Account No: " + getAccountNo());
+		System.out.println("Withdraw amount: " + amount);
+		System.out.println("Your new balance is: " + getAccountBalance() + "\n");
 	}
 	
 	public void showDetails() {
