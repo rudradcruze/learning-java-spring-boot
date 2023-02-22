@@ -5,11 +5,11 @@ Go to the official website of oracle java corporation then download the latest v
 
 ## Ubuntu Environment (version 22.04)
 
-[Java download for linux](https://www.oracle.com/java/technologies/downloads/#jdk19-linux)
+[Java download for linux](https://www.oracle.com/java/technologies/downloads/#jdk19-windows)
 
 Go to the link then choose debian package download or just use the link below.
 
-[Linux download jdk-19_linux-x64_bin.deb](https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb)
+[Linux download jdk-19_linux-x64_bin.deb](https://download.oracle.com/java/19/latest/jdk-19_windows-x64_bin.exe )
 
 After download go to the download directory and then run the terminal in the download directory. To do that just right-click then open in the terminal. <br>
 ![Right click to open in terminal](https://github.com/rudradcruze/learning-java-spring-boot/blob/main/images/terminal-open.png)
@@ -33,7 +33,19 @@ JAVA_HOME="/usr/lib/jvm/jdk-19"
 
 ## Windows Environment (version 22.04)
 
+[Java download for windows](https://www.oracle.com/java/technologies/downloads/#jdk19-linux)
 
+Go to the link then choose x64 Installer download or just use the link below.
+
+[windows download x64 Installer (jdk-19_windows-x64_bin)](https://download.oracle.com/java/19/latest/jdk-19_windows-x64_bin.exe )
+
+Follow the below steps:
+1. Step 1: Right click and run as administrator to install
+2. Step 2: Go to Environment Variables and then choose Environment Variables
+3. Step 3: On user variable section click new <br>
+    **Variable Name:** `JAVA_HOME` <br>
+    **Variable Value:** `C:\Program Files\Java\jdk-19` <br>
+4. Step 4: Go to the System Variable section double click on the **path** then choose new and paste these command `%JAVA_HOME%\bin`
 ---
 # Eclipse Installation
 ## Ubuntu Environment (version 22.04)
@@ -56,7 +68,7 @@ cd eclipse-installer/
 ./eclipse-inst
 ```
 
-Then choose `Eclipse IDE for Enterprise Java and Web Developers`
+Then choose **`Eclipse IDE for Enterprise Java and Web Developers`**
 ![Eclipse IDE for Enterprise Java and Web Developers](https://github.com/rudradcruze/learning-java-spring-boot/blob/main/images/eclipes-for-developers.png)
 
 ## Windows Environment (version 22.04)
@@ -65,7 +77,8 @@ Then choose `Eclipse IDE for Enterprise Java and Web Developers`
 
 Go to the link then choose [x86_64](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-12/R/eclipse-inst-jre-win64.exe) package download or just use the link below.
 
-[W#indows download eclipse-inst-jre-win64.exe](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-12/R/eclipse-inst-jre-win64.exe)
+[Windows download eclipse-inst-jre-win64.exe](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-12/R/eclipse-inst-jre-win64.exe)
 
-Go to the download directory and then right click then run as administrator. After that, a dialog box will appear then choose Eclipse IDE for `Enterprise Java and Web Developers`
+Go to the download directory and then right click then run as administrator. After that, a dialog box will appear then choose Eclipse IDE for **`Enterprise Java and Web Developers`** <br>
+
 ![Eclipse IDE for Enterprise Java and Web Developers](https://github.com/rudradcruze/learning-java-spring-boot/blob/main/images/eclipes-for-developers.png)
