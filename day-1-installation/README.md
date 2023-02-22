@@ -41,11 +41,22 @@ Go to the link then choose x64 Installer download or just use the link below.
 
 Follow the below steps:
 1. Step 1: Right click and run as administrator to install
+![Java Download](https://github.com/rudradcruze/learning-java-spring-boot/blob/main/images/java-windows.png)
 2. Step 2: Go to Environment Variables and then choose Environment Variables
-3. Step 3: On user variable section click new <br>
+![Find Enviroment Variable](https://github.com/rudradcruze/learning-java-spring-boot/blob/main/images/windows-find-envirornment-variable.png)
+![Windows system propertices](https://github.com/rudradcruze/learning-java-spring-boot/blob/main/images/windows-system-propertices.png)
+
+3. Step 3: On user variable section click **new** <br>
     **Variable Name:** `JAVA_HOME` <br>
     **Variable Value:** `C:\Program Files\Java\jdk-19` <br>
-4. Step 4: Go to the System Variable section double click on the **path** then choose new and paste these command `%JAVA_HOME%\bin`
+![Windows user variable](https://github.com/rudradcruze/learning-java-spring-boot/blob/main/images/windows-user-variable.png)
+![Windows jdk path](https://github.com/rudradcruze/learning-java-spring-boot/blob/main/images/windows-jdk-19-path.png)
+![windows java home](https://github.com/rudradcruze/learning-java-spring-boot/blob/main/images/windows-java-home.png)
+
+4. Step 4: Go to the System Variable section double click on the **path** then choose new and paste these command `%JAVA_HOME%\bin` <br>
+![windows system path](https://github.com/rudradcruze/learning-java-spring-boot/blob/main/images/windows-system-path.png)
+![windows system variable path new](https://github.com/rudradcruze/learning-java-spring-boot/blob/main/images/windows-path-new.png)
+<br>
 ---
 # Eclipse Installation
 ## Ubuntu Environment (version 22.04)
