@@ -11,12 +11,12 @@
 * **(Part - A) Core Java** <br>
     * - [x] Installation
     	* - [x] Basic Class
-	* - [x] Basic Object
-	* - [x] Program/Code Run
-	* - [x] Variable
-	* - [x] Getter Setter
-	* - [x] Object Creation
-	* - [x] Method Create
+        * - [x] Basic Object
+        * - [x] Program/Code Run
+        * - [x] Variable
+        * - [x] Getter Setter
+        * - [x] Object Creation
+        * - [x] Method Create
     * - [ ] Operator
     * - [ ] Control
     * - [ ] Array
@@ -41,7 +41,7 @@
     * - [ ] Synchronized Task
     * - [ ] Thread (Asynchronised)
     * **(Project)**
-* **(Part - B) `Server Side`**
+* **(Part - B) Server Side**
     * - [ ] Server - JSP - (Tomcat / Glashfish)
     * - [ ] MVC (DAO to MVC)
         * - [ ] HTML
@@ -68,7 +68,7 @@
         * - [ ] Rest
         * - [ ] Spring Security
         * - [ ] JWT
-* **(Part - C) `Frontend`**
+* **(Part - C) Frontend**
     * - [ ] JS
         * - [ ] Angular JS / React Js
         * - [ ] Jquery
