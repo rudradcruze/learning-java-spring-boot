@@ -8,8 +8,15 @@
 
 ## _Topics that are going to learn in this journey_
 
-* **(Part - A) `Core Java`** <br>
+* **(Part - A) Core Java** <br>
     * - [x] Installation
+    	* - [x] Basic Class
+	* - [x] Basic Object
+	* - [x] Program/Code Run
+	* - [x] Variable
+	* - [x] Getter Setter
+	* - [x] Object Creation
+	* - [x] Method Create
     * - [ ] Operator
     * - [ ] Control
     * - [ ] Array
