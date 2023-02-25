@@ -59,7 +59,7 @@
         * - [ ] Lookup
     * - [ ] AOP
     * - [ ] Spring SPELL
-        * V- [ ] alidation
+        * - [ ] Validation
     * - [ ] JDBC Template
     * - [ ] Hybernet
     * - [ ] JPA Data
