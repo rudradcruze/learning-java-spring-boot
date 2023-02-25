@@ -1,5 +1,3 @@
-package ac.dia.shortcourse;
-
 public class Account {
 	
 	private int accountNo;

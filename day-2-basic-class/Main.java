@@ -1,5 +1,3 @@
-package ac.dia.shortcourse;
-
 public class Main {
 	
 	public static void main(String[] args) {
