@@ -3,6 +3,8 @@
 ## Classes & Resources
 * [Day 1: Java Installation & Softwares](https://github.com/rudradcruze/learning-java-spring-boot/tree/main/day-1-installation)
 * [Day 2: Java Structure & Class Basic](https://github.com/rudradcruze/learning-java-spring-boot/tree/main/day-2-basic-class)
+* [Day 1: Java Installation & Softwares](https://github.com/rudradcruze/learning-java-spring-boot/tree/main/day-1-installation)
+* [Day 2: Variable & Operator](https://github.com/rudradcruze/learning-java-spring-boot/tree/main/day-3-variable-operator)
 
 ---
 
@@ -10,15 +12,29 @@
 
 * **(Part - A) Core Java** <br>
     * - [x] Installation
-    	* - [x] Basic Class
-        * - [x] Basic Object
-        * - [x] Program/Code Run
-        * - [x] Variable
-        * - [x] Getter Setter
+        * - [x] Java JDK - 19
+        * - [x] IDE Install (Eclipes)
+    * - [x] Basic Program Run
+    	* - [x] Basic Class Creation
         * - [x] Object Creation
+        * - [x] Getter Setter
         * - [x] Method Create
-    * - [ ] Operator
+    * - [x] Java History
+    	* - [x] What is Java?
+    	* - [x] What is JVM?
+    	* - [x] How JVM Works?
+    * - [x] Variable
+    * - [x] Operator
     * - [ ] Control
+        * - [x] if
+        * - [x] else
+        * - [x] else-if
+        * - [ ] switch case
+    * - [ ] Loops
+        * - [ ] for loop
+        * - [ ] while loop
+        * - [ ] do while loop
+        * - [ ] for each loop
     * - [ ] Array
     * - [ ] Method
     * - [ ] OOP
@@ -51,12 +67,11 @@
     * - [ ] Spring
     * - [ ] IOC
     * - [ ] DI
-    * - [ ] Bin-lifecycle
+    * - [ ] Bean-lifecycle
     * - [ ] Configuration
         * - [ ] XML
         * - [ ] Notation
         * - [ ] Java
-        * - [ ] Lookup
     * - [ ] AOP
     * - [ ] Spring SPELL
         * - [ ] Validation
