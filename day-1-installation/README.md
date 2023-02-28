@@ -15,13 +15,10 @@ After download go to the download directory and then run the terminal in the dow
 ![Right click to open in terminal](https://github.com/rudradcruze/learning-java-spring-boot/blob/main/images/terminal-open.png)
 
 Then run the below commands:
-```
+```shell
 sudo dpkg -i jdk-19_linux-x64_bin.deb
-
 sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-19/bin/java 1
-
 sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-19/bin/javac 1
-
 sudo gedit /etc/environment
 ```
 
@@ -79,11 +76,9 @@ After download go to the download directory then run the terminal in the downloa
 ![Right click to open in terminal](https://github.com/rudradcruze/learning-java-spring-boot/blob/main/images/terminal-open.png)
 
 After that run the below commands:
-```
+```shell
 tar -xvzf eclipse-inst-jre-linux64.tar.gz
-
 cd eclipse-installer/ 
-
 ./eclipse-inst
 ```
 
