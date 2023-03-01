@@ -12,9 +12,9 @@ public class LoopHomeWork {
 		
 		for(int c = a + b; c<= 100; ) {
 			System.out.print(" " + c);
-			c = a + b;
 			a = b;
 			b = c;			
+			c = a + b;
 		}
 		
 		// Pattern
