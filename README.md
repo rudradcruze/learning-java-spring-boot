@@ -1,10 +1,11 @@
 # Learning Java Spring Boot
 
 ## Classes & Resources
-* [Day 1: Java Installation & Softwares](https://github.com/rudradcruze/learning-java-spring-boot/tree/main/day-1-installation)
-* [Day 2: Java Structure & Class Basic](https://github.com/rudradcruze/learning-java-spring-boot/tree/main/day-2-basic-class)
-* [Day 1: Java Installation & Softwares](https://github.com/rudradcruze/learning-java-spring-boot/tree/main/day-1-installation)
-* [Day 2: Variable & Operator](https://github.com/rudradcruze/learning-java-spring-boot/tree/main/day-3-variable-operator)
+* [Day 1: Java Installation & Softwares](./day-1-installation/)
+* [Day 2: Java Structure & Class Basic](./day-2-basic-class/)
+* [Day 3: Variable & Operator](./day-3-variable-operator/)
+* [Day 4: Condition (if/else/else-if)](./day-4-condition/)
+* [Day 5: Iteration (for loop)](./day-5-for-loop/)
 
 ---
 
@@ -13,6 +14,7 @@
 * **(Part - A) Core Java** <br>
     * - [x] Installation
         * - [x] Java JDK - 19
+            * - [x] Set Java Home & Path
         * - [x] IDE Install (Eclipes)
     * - [x] Basic Program Run
     	* - [x] Basic Class Creation
@@ -24,17 +26,19 @@
     	* - [x] What is JVM?
     	* - [x] How JVM Works?
     * - [x] Variable
+        * - [x] Data Type
     * - [x] Operator
     * - [ ] Control
-        * - [x] if
-        * - [x] else
-        * - [x] else-if
-        * - [ ] switch case
-    * - [ ] Loops
-        * - [ ] for loop
-        * - [ ] while loop
-        * - [ ] do while loop
-        * - [ ] for each loop
+        * - [x] Condition
+            * - [x] if
+            * - [x] else
+            * - [x] else-if
+            * - [ ] switch case
+        * - [ ] Loops
+            * - [x] for loop
+            * - [ ] while loop
+            * - [ ] do while loop
+            * - [ ] for each loop
     * - [ ] Array
     * - [ ] Method
     * - [ ] OOP
