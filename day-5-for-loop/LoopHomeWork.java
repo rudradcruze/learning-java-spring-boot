@@ -5,6 +5,9 @@ public class LoopHomeWork {
 	public static void main(String[] args) {
 		
 		// For fibonacci series
+		/*
+		 	0 1 1 1 2 3 5 8 13 21  .... (print up-to 100)
+		 * */
 		System.out.println("======= Fibonacci Series =======");
 		int a = 0;
 		int b = 1;
@@ -17,7 +20,14 @@ public class LoopHomeWork {
 			b = c;			
 		}
 		
-		// Pattern
+		// Patterns
+		/*
+			1 
+			1 2 
+			1 2 3 
+			1 2 3 4 
+			1 2 3 4 5
+		*/
 		System.out.println("\n\n======= Pattern 1 =======");
 		for(int i=1; i<=5; i++) {
 			for(int j=1; j<=i; j++) {
@@ -41,10 +51,10 @@ public class LoopHomeWork {
 		  32123
 		 4321234
 		543212345
-	     4321234
-	      32123
-	       212
-	        1
+	         4321234
+	          32123
+	           212
+	            1
 		
 		*/
 		System.out.println("\n======= Pattern 3 =======");

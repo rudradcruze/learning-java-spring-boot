@@ -25,6 +25,7 @@
     	* - [x] What is Java?
     	* - [x] What is JVM?
     	* - [x] How JVM Works?
+    	* - [x] How Java Code runs?
     * - [x] Variable
         * - [x] Data Type
     * - [x] Operator
@@ -33,7 +34,7 @@
             * - [x] if
             * - [x] else
             * - [x] else-if
-            * - [ ] switch case
+            * - [x] switch case
         * - [ ] Loops
             * - [x] for loop
             * - [ ] while loop
