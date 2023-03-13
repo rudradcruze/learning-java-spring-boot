@@ -59,7 +59,7 @@ public class SwitchCaseWork {
 			System.out.print("\npress y for next operation: ");
 			choice = scan.next();
 			
-		}while(choice.equals("y") || choice.equals("Y"));
+		}while(choice.equalsIgnoreCase("Y"));
 	}
 
 }
