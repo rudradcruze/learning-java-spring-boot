@@ -6,6 +6,11 @@
 * [Day 3: Variable & Operator](./day-3-variable-operator/)
 * [Day 4: Condition (if/else/else-if)](./day-4-condition/)
 * [Day 5: Iteration (for loop)](./day-5-for-loop/)
+* [Day 6: Iteration (for while and foreach loop)](./day-6-while-do-foreach/)
+* [Day 7: Condition (Switch Case)](./day-7-switch-case/)
+* [Day 8: Object Scenario Analysis](./day-8-senario-analysis-objects/)
+* [Day 9: Weight Tracker Scenario User Creation](./day-9-weight-tracker-user/)
+* [Day 10: Personal Account (account, transition, transfer, savings)](./day-10-oop-personal-account/)
 
 ---
 
@@ -37,13 +42,13 @@
             * - [x] switch case
         * - [ ] Loops
             * - [x] for loop
-            * - [ ] while loop
-            * - [ ] do while loop
-            * - [ ] for each loop
+            * - [x] while loop
+            * - [x] do while loop
+            * - [x] for each loop
     * - [ ] Array
     * - [ ] Method
     * - [ ] OOP
-        * - [ ] Class
+        * - [x] Class
         * - [ ] Inheritance
         * - [ ] Polymorphism
         * - [ ] Overloading
