@@ -11,6 +11,9 @@
 * [Day 8: Object Scenario Analysis](./day-8-senario-analysis-objects/)
 * [Day 9: Weight Tracker Scenario User Creation](./day-9-weight-tracker-user/)
 * [Day 10: Personal Account (account, transition, transfer, savings)](./day-10-oop-personal-account/)
+* [Day 11: Personal Account (account, transition, transfer, savings)](./day-11-oop-personal-account%20(Further%20Dive)/)
+* [Day 12: Personal Account (account, transition, transfer, savings)](./day-12-oop-personal-account%20(Code)/)
+* [Day 13: Bird Project (Inheritance, Poly, Abstract, Call By value/reference, Super Class Reference, Constructor)](./day-13-oop-bird-upto-abstract/)
 
 ---
 
@@ -34,26 +37,27 @@
     * - [x] Variable
         * - [x] Data Type
     * - [x] Operator
-    * - [ ] Control
+    * - [x] Control
         * - [x] Condition
             * - [x] if
             * - [x] else
             * - [x] else-if
             * - [x] switch case
-        * - [ ] Loops
+        * - [x] Loops
             * - [x] for loop
             * - [x] while loop
             * - [x] do while loop
             * - [x] for each loop
     * - [ ] Array
-    * - [ ] Method
-    * - [ ] OOP
+    * - [x] Method
+    * - [x] OOP
         * - [x] Class
-        * - [ ] Inheritance
-        * - [ ] Polymorphism
-        * - [ ] Overloading
-        * - [ ] Overwriting
-        * - [ ] Abstract
+        * - [x] Constructor
+        * - [x] Inheritance
+        * - [x] Polymorphism
+        * - [x] Overloading
+        * - [x] Overwriting
+        * - [x] Abstract
         * - [ ] Interface
         * - [ ] Runtime Polymorphism
     * - [ ] Relational Mapping
