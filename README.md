@@ -14,6 +14,7 @@
 * [Day 11: Personal Account (account, transition, transfer, savings)](./day-11-oop-personal-account%20(Further%20Dive)/)
 * [Day 12: Personal Account (account, transition, transfer, savings)](./day-12-oop-personal-account%20(Code)/)
 * [Day 13: Bird Project (Inheritance, Poly, Abstract, Call By value/reference, Super Class Reference, Constructor)](./day-13-oop-bird-upto-abstract/)
+* [Day 14: Exam Project (Interface and Collection Framework, compare 1-3)](./day-14-interface-and-collection-framework/)
 
 ---
 
@@ -58,10 +59,12 @@
         * - [x] Overloading
         * - [x] Overwriting
         * - [x] Abstract
-        * - [ ] Interface
+        * - [x] Interface
         * - [ ] Runtime Polymorphism
     * - [ ] Relational Mapping
     * - [ ] Collection Framework
+        * - [x] Generics (Overview)
+        * - [x] Set, List
         * - [ ] Functional Interface
         * - [ ] Steam
         * - [ ] Lamda
