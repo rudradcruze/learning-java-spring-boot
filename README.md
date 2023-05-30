@@ -15,7 +15,9 @@
 * [Day 12: Personal Account (account, transition, transfer, savings)](./day-12-oop-personal-account%20(Code)/)
 * [Day 13: Bird Project (Inheritance, Poly, Abstract, Call By value/reference, Super Class Reference, Constructor)](./day-13-oop-bird-upto-abstract/)
 * [Day 14: Exam Project (Interface and Collection Framework, compare 1-3)](./day-14-interface-and-collection-framework/)
-
+* [Day 15: Java Generic (Custom Collection & Linked List)](./day-15-java-generic-%26-custom-collection-linked-list/)
+* [Day 16: Lamda Expression & Steam](./day-16-lambda-expression/)
+* [Day 17: JDBC (Select)](./day-17-jdbc-select/)
 ---
 
 ## _Topics that are going to learn in this journey_
@@ -49,7 +51,7 @@
             * - [x] while loop
             * - [x] do while loop
             * - [x] for each loop
-    * - [ ] Array
+    * - [x] Array
     * - [x] Method
     * - [x] OOP
         * - [x] Class
@@ -60,17 +62,18 @@
         * - [x] Overwriting
         * - [x] Abstract
         * - [x] Interface
-        * - [ ] Runtime Polymorphism
-    * - [ ] Relational Mapping
-    * - [ ] Collection Framework
+        * - [x] Runtime Polymorphism
+    * - [x] Relational Mapping
+    * - [x] Collection Framework
         * - [x] Generics (Overview)
         * - [x] Set, List
-        * - [ ] Functional Interface
-        * - [ ] Steam
-        * - [ ] Lamda
+        * - [x] Linked List
+        * - [x] Functional Interface
+        * - [x] Steam
+        * - [x] Lamda
     * - [ ] GUI - Java Fx
     * - [ ] JDBC and DAO
-    * - [ ] Exception
+    * - [x] Exception
     * - [ ] Synchronized Task
     * - [ ] Thread (Asynchronised)
     * **(Project)**
