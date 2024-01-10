@@ -2,9 +2,7 @@ package org.rudradcruze;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +15,7 @@ import java.util.Objects;
 public class Main {
 
     // db
-    private static List<Customer> customers;
+    private static final List<Customer> customers;
 
     static {
         customers = new ArrayList<>();
@@ -38,7 +36,18 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        System.out.println(customers);
         SpringApplication.run(Main.class, args);
+    }
+
+
+//    @RequestMapping(
+//            path = "api/v1/customer",
+//            method = RequestMethod.GET
+//    )
+    @GetMapping("api/v1/customers")
+    public List<Customer> getCustomer() {
+        return customers;
     }
 
     static class Customer {
@@ -48,10 +57,6 @@ public class Main {
         private Integer age;
 
         private Customer() {}
-
-        public List<Customer> getCustomer() {
-            return customers;
-        }
 
         public Integer getId() {
             return id;
