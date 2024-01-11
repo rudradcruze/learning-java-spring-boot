@@ -1,7 +1,5 @@
 package org.rudradcruze.customer;
 
-import org.rudradcruze.Main;
-
 import java.util.Objects;
 
 public class Customer {

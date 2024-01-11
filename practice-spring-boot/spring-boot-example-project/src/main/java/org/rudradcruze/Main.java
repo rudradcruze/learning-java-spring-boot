@@ -2,19 +2,38 @@ package org.rudradcruze;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 //@ComponentScan(basePackages = "com.rudradcruze")
 //@EnableAutoConfiguration
 public class Main {
     public static void main(String[] args) {
-        SpringApplication.run(Main.class, args);
+        /*
+            CustomerService customerService = new CustomerService(new CustomerDataAccessService());
+            CustomerController customerController = new CustomerController(customerService);
+        */
+        ConfigurableApplicationContext applicationContext =
+                SpringApplication.run(Main.class, args);
+        printBeans(applicationContext);
     }
+
+    @Bean("Foo")
+    public Foo getFoo() {
+        return new Foo("Rudra");
+    }
+
+    record Foo(String name) {}
+
+    private static void printBeans(ConfigurableApplicationContext ctx) {
+        String[] beanDefinitionNames =
+                ctx.getBeanDefinitionNames();
+        for (String beanDefinitionName : beanDefinitionNames) {
+            System.out.println(beanDefinitionName);
+        }
+    }
+
 
 //    @GetMapping("/greet")
 //    public GreetResponse greet(@RequestParam(value = "name", required = false) String name) {
