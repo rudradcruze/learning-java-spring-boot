@@ -1,5 +1,6 @@
 package org.rudradcruze.customer;
 
+import org.rudradcruze.exception.ResourceNotFound;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,7 +20,7 @@ public class CustomerService {
     public Customer getCustomer(Integer id) {
         return customerDao.selectCustomerById(id)
                 .orElseThrow(
-                        () -> new IllegalArgumentException("Customer with id [%s] not" .formatted(id))
+                        () -> new ResourceNotFound("Customer with id [%s] not" .formatted(id))
                 );
     }
 }
