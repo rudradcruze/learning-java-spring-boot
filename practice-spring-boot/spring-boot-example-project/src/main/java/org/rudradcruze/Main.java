@@ -30,7 +30,7 @@ public class Main {
         String[] beanDefinitionNames =
                 ctx.getBeanDefinitionNames();
         for (String beanDefinitionName : beanDefinitionNames) {
-            System.out.println(beanDefinitionName);
+//            System.out.println(beanDefinitionName);
         }
     }
 
