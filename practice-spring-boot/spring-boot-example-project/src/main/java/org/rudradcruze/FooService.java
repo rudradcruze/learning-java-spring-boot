@@ -4,6 +4,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class FooService {
+    /*
     private final Main.Foo foo;
 
     public FooService(Main.Foo foo) {
@@ -14,4 +15,5 @@ public class FooService {
     String getFooName() {
         return foo.name();
     }
+     */
 }
