@@ -1,5 +1,6 @@
 package org.rudradcruze;
 
+import com.github.javafaker.Faker;
 import org.rudradcruze.customer.Customer;
 import org.rudradcruze.customer.CustomerRepository;
 import org.springframework.boot.CommandLineRunner;
@@ -9,6 +10,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 import java.util.List;
+import java.util.Random;
 
 @SpringBootApplication
 //@ComponentScan(basePackages = "com.rudradcruze")
@@ -28,19 +30,15 @@ public class Main {
     @Bean
     CommandLineRunner runner(CustomerRepository customerRepository) {
         return args -> {
-            Customer alex = new Customer(
-                    "Alex",
-                    "alex@gmail.com",
-                    21
-            );
-            Customer jamila = new Customer(
-                    "Jamila",
-                    "jamila@gmail.com",
-                    19
+            var faker = new Faker();
+            Random random = new Random();
+            Customer customer = new Customer(
+                    faker.name().fullName(),
+                    faker.internet().safeEmailAddress(),
+                    random.nextInt(16, 99)
             );
 
-            List<Customer> customers = List.of(alex, jamila);
-            customerRepository.saveAll(customers);
+            customerRepository.save(customer);
         };
     }
 
