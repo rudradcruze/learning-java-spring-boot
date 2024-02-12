@@ -12,7 +12,7 @@ public class CustomerService {
 
     private final CustomerDao customerDao;
 
-    public CustomerService(@Qualifier("jpa") CustomerDao customerDao) {
+    public CustomerService(@Qualifier("jdbc") CustomerDao customerDao) {
         this.customerDao = customerDao;
     }
 
@@ -32,7 +32,7 @@ public class CustomerService {
         String email = customerRegistrationRequest.email();
         if (customerDao.existsPersonWithEmail(email)) {
             throw new DuplicateResourceException(
-                    "Customer with email [%s] not found" .formatted(email)
+                    "Customer with email [%s] already taken" .formatted(email)
             );
         }
 
