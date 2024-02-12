@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.rudradcruze.AbstractTestcontainers;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -35,19 +36,37 @@ class CustomerJDBCDataAccessServiceTest extends AbstractTestcontainers {
         userTest.insertCustomer(customer);
 
         // When
-        List<Customer> customers = userTest.selectAllCustomers();
+        List<Customer> actual = userTest.selectAllCustomers();
 
         // Then
-        assertThat(customers).isNotEmpty();
+        assertThat(actual).isNotEmpty();
     }
 
     @Test
     void selectCustomerById() {
-        // Given
-
+        String email = FAKER.internet().safeEmailAddress() + "-" + UUID.randomUUID();
+        Customer customer = new Customer(
+                FAKER.name().fullName(),
+                email,
+                20
+        );
+        userTest.insertCustomer(customer);
+        long id = userTest.selectAllCustomers()
+                .stream()
+                .filter(c -> c.getEmail().equals(email))
+                .map(Customer::getId)
+                .findFirst()
+                .orElseThrow();
         // When
+        Optional<Customer> actual = userTest.selectCustomerById((int) id);
 
         // Then
+        assertThat(actual).isPresent().hasValueSatisfying(c -> {
+           assertThat(c.getId()).isEqualTo(id);
+           assertThat(c.getName()).isEqualTo(customer.getName());
+           assertThat(c.getEmail()).isEqualTo(customer.getEmail());
+           assertThat(c.getAge()).isEqualTo(customer.getAge());
+        });
     }
 
     @Test
